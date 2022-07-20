@@ -1,14 +1,14 @@
 const WebSocket = require("ws");
 const EventEmitter = require("events");
 const colors = [
-    "FF0000",
+    "4B0082",
+    "800080",
+    "8B008B",
+    "9370DB",
+    "BA55D3",
+    "DA70D6",
+    "DDA0DD",
     "FF7F00",
-    "FFFF00",
-    "00FF00",
-    "00FFFF",
-    "0000FF",
-    "8B00FF",
-    "FF00FF",
 ];
 
 class Client extends EventEmitter {
