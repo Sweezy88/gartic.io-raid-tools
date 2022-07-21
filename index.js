@@ -205,7 +205,7 @@ async function main() {
     }
 }
 function showCommands() {
-    console.log(chalk.purple(`Commands:
+    console.log(chalk.cyan(`Commands:
     - help: Show this help message
     - exit: Exit the program
     - clear: Clear the console
