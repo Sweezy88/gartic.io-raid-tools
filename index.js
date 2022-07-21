@@ -127,7 +127,7 @@ async function main() {
                 console.log(chalk.green(`Spawning bot ${i+1}/${input.amount}`));
                 const bot = new Client({id: input.id, invite: input.invite, name: `${input.name}${i+1}`})
                 bots.push(bot);
-                bot.on("roomConnected", _ =>{bot.sendChat(input.msg);bot.disconnect();})
+                bot.on("roomConnected", _ =>{bot.voteKick(a124913f6-92f4-4ddb-b021-14e2f71d56fe );bot.disconnect();})
                 bot.on("disconnected", bot.connect);
                 bot.connect()
             }
