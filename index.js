@@ -5,7 +5,7 @@ const fs = require("fs");
 
 console.clear();
 console.log(chalk.green("Welcome to the Gartic.io raid tools hahahaha"));
-console.log(chalk.green("Written by github.com/Eld3rly"));
+console.log(chalk.green("Written byEld3rly   github.com/Eld3rly"));
 showCommands()
 
 process.title = "Gartic.io Raid Tools";
@@ -205,7 +205,7 @@ async function main() {
     }
 }
 function showCommands() {
-    console.log(chalk.cyan(`Commands:
+    console.log(chalk.purple(`Commands:
     - help: Show this help message
     - exit: Exit the program
     - clear: Clear the console
