@@ -4,7 +4,7 @@ const Client = require("./client.js");
 const fs = require("fs");
 
 console.clear();
-console.log(chalk.green("Welcome to the Gartic.io raid tools!"));
+console.log(chalk.green("Welcome to the Gartic.io raid tools hahahaha"));
 console.log(chalk.green("Written by github.com/Eld3rly"));
 showCommands()
 
