@@ -39,7 +39,7 @@ class Client extends EventEmitter {
         this.ws.on("open", () => {
             if(this.destroyed) return this.ws.close();
             this.emit("connected");
-            this.ws.send(`42[3,{"v":20000,"nick":"${this.name}","avatar":${Math.floor(Math.random()*36)},"sala":"${this.invite}"}]`);
+            this.ws.send(`42[3,{"v":20000,"nick":"${this.name}","avatar":${Math.floor(Math.random()*2)},"sala":"${this.invite}"}]`);
         });
         this.ws.on("message", message => {
             if(this.destroyed) return this.ws.close();
